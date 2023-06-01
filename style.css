@@ -239,8 +239,6 @@ body {
     width: 30%;
     position: relative;
     text-align: center;
-    overflow: hidden;
-    height: 186px;
 }
 
 .portfolio .works .middle {
@@ -265,7 +263,12 @@ body {
     opacity: 1;
 }
 
+.portfolio .works .work .overlay h3 {
+    font-size: 30px;
+}
+
 .portfolio .works .work .overlay p {
+    font-size: 20px;
     margin: 25px 0;
 }
 
@@ -329,15 +332,15 @@ body {
 }
 
 .offer .container .box .icon {
-    font-size: 30px;
-    width: 25%;
+    font-size: 35px;
+    width: 20%;
     float: left;
-    padding-top: 10px;
+    padding-top: 5px;
     color: #01A89E;
 }
 
 .offer .container .box .text {
-    width: 75%;
+    width: 80%;
     float: left;
 }
 
@@ -350,4 +353,66 @@ body {
 
 .offer .container .box .text p {
     color: #777
+}
+
+/* choose */
+
+.choose {
+    padding: 100px 0;
+    background-color: #eee;
+}
+
+.choose .container {
+    overflow: auto;
+}
+
+.choose .container .text,
+.choose .container .img {
+    width: 50%;
+    float: left;
+    color: #777;
+}
+
+.choose .img img {
+    display: block;
+    width: 50%;
+    margin: auto;
+    max-width: 100%;
+}
+
+.choose .container .text ul {
+    margin-top: 50px;
+}
+
+.choose .container .text i {
+    color: #01A89E;
+    margin: 10px;
+}
+
+.choose .container .text p {
+    font-size: 20px;
+}
+
+.choose .container .text li {
+    font-size: 18px;
+}
+
+.choose .container .img .bullets {
+    width: 50%;
+    margin: 25px auto;
+    text-align: center;
+}
+
+.choose .container .img .bullets span {
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #777;
+}
+
+.choose .container .img .bullets span.active,
+.choose .container .img .bullets span:hover {
+    background-color: #01A89E;
 }
